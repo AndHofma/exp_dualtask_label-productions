@@ -137,6 +137,7 @@ Dieses Projektverzeichnis enthält das Setup für die Labeling-Aufgabe. Bitte le
   - Ein Ordner `pics` mit 5 Dateien (`*.png`)
   - Ein leerer Unterordner `stimuli/test` für die Aufnahmen (die du aus BoxUP holst)
   - Ein Unterordner `stimuli/practice` indem sich 10 Aufnahmen befinden
+  - Ein Ordner `.idea` 
 
 ### Download der Aufnahmen zum Labeln
 - Die Aufnahmen, die du labeln sollst, befinden sich in einem Ordner auf BoxUP
@@ -145,7 +146,7 @@ Dieses Projektverzeichnis enthält das Setup für die Labeling-Aufgabe. Bitte le
 - Im Unterordner `stimuli/test` müssten sich dann 2.400 `wav-Dateien` befinden
 
 ## Starten der Labeling-Aufgabe
-- Doppeklicke auf `start_experiment.bat` - das Skript tut folgendes:
+- Klicke doppelt auf `start_experiment.bat` - das Skript tut folgendes:
    - Es prüft, ob die korrekte Python Version installiert ist
    - Es installiert einmal zu Beginn alle notwendigen Python-Packages
    - Es startet das Experiment
