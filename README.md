@@ -3,7 +3,7 @@ Dieses Projektverzeichnis enthält das Setup für die Labeling-Aufgabe. Bitte le
 
 ## Voraussetzungen
 - Bitte stelle sicher, dass Python in der Version 3.10 auf deinem Rechner installiert ist
-- Stelle sicher, dass auf deiner Festplatte 3.5 GB freier Speicherplatz für die Aufgabe zur Verfügung steht
+- Stelle sicher, dass auf deiner Festplatte ca. 550 MB freier Speicherplatz für die Aufgabe zur Verfügung steht
 - Bitte schreibe mir ein E-Mail mit deinem Namen und deiner Uni-Mailadresse, damit ich auf BoxUP die Ordner mit den Aufnahmen für dich freischalten kann
 - Erstelle dir deine `labeler_ID` wie nachfolgend beschrieben, und notiere sie dir, damit du sie wiederverwenden kannst 
   - die ersten zwei Buchstaben deines Geburtsnamens
