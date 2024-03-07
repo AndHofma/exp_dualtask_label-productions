@@ -117,7 +117,7 @@ Dieses Projektverzeichnis enthält das Setup für die Labeling-Aufgabe. Bitte le
 
 ### Download des Projektverzeichnisses
 - Bitte lege auf deiner Festplatte einen Ordner namens `labeling_task` an
-- Du brauchst ca. 3.5 GB freien Speicherplatz
+- Du brauchst ca. 550 MB freien Speicherplatz
 - Klicke auf den grün unterlegten Button `<> Code` und dann auf "Download ZIP" und speichere das Ganze am besten erstmal in deinem `Downloads` Ordner (macOS: Go > Downloads (Option+Command+L))
   - Wenn der Download beendet ist - wähle die Datei aus `exp_dualtask_labeling-productions.zip`
   - Im Datei-Explorer müsste dies erscheinen: `Extrahieren - Tools für komprimierte Ordner` - bitte darauf klicken und dann rechts auf `Alle extrahieren`
@@ -126,8 +126,7 @@ Dieses Projektverzeichnis enthält das Setup für die Labeling-Aufgabe. Bitte le
     - Dann erscheint der entpackte Ordner mit demselben Namen, wie die zip-Datei
   - Bitte klicke auf den Ordner bis die einzelnen enthaltenen Dateien angezeigt werden
   - Wähle ALLE enthaltenen Dateien und Ordner auf einmal aus und verschiebe ALLE enthaltenen Dateien und Ordner in den von dir angelegten Ordner `labeling_task`
-  - Bitte lege einen neuen Ordner im Unterordner `stimuli` an und nenne ihn `test`
-    - Es müssten sich dann zwei Ordner in `stimuli` befinden - `practice` und `test`
+  - Schließlich kannst du `exp_dualtask_labeling-productions.zip` aus deinem Downloads-Ordner löschen, damit nicht sinnlos Speicher belegt wird 
 
 ## Verzeichnisstruktur
 - In deinem Ordner `labeling_task` sollte nun Folgendes enthalten sein:
@@ -140,10 +139,9 @@ Dieses Projektverzeichnis enthält das Setup für die Labeling-Aufgabe. Bitte le
   - Ein Ordner `.idea` 
 
 ### Download der Aufnahmen zum Labeln
-- Die Aufnahmen, die du labeln sollst, befinden sich in einem Ordner auf BoxUP
-- Bitte lade den gesamten Inhalt des Ordners auf deinen Rechner und verschiebe dann alle Aufnahmen (wav-Dateien) in den Ordner `stimuli/test` in `labeling_task`
-- Bitte nicht den ganzen BoxUP-Ordner in `stimuli/test` verschieben, sondern NUR die enthaltenen wav-Dateien, sonst findet das Skript die wav-Dateien später nicht
-- Im Unterordner `stimuli/test` müssten sich dann 2.400 `wav-Dateien` befinden
+- Die Aufnahmen, die du labeln sollst, befinden sich in einem Ordner namens `test` auf BoxUP
+- Bitte lade den gesamten Ordner (Inhalt: 2874 wav-Dateien) auf deinen Rechner in `labeling_task` und dort in den Unterordner `stimuli`
+- In `labeling_task` und dort im Unterordner `stimuli` sollten sich dann zwei Ordner befinden - `practice` mit 10 wav-Dateien und `test` mit 2874 wav-Dateien
 
 ## Starten der Labeling-Aufgabe
 - Klicke doppelt auf `start_experiment.bat` - das Skript tut folgendes:
@@ -156,7 +154,7 @@ Dieses Projektverzeichnis enthält das Setup für die Labeling-Aufgabe. Bitte le
 ## Ergebnisse
 - Wenn du alle Aufnahmen durchgehört und gelabeled hast, gib mir bitte Bescheid
 - Erstelle auf BoxUP bitte einen Ordner mit deiner `labeler_ID` und teile ihn mit mir
-- In den Ordner lädst du bitte Folgendes hoch:
+- In den Ordner lädst du bitte Folgendes hoch, nachdem du die Aufgabe vollständig bearbeitet hast:
   - Den Ordner `results` und den Ordner `randomization_lists` aus `labeler_task`
   - Darin müssten jeweils Unterordner mit deiner `labeler_ID` und verschiedene Dateien sein
     - In `results/labeler_ID` müssten sich vier `csv-Dateien` und eine `txt-Datei` befinden
